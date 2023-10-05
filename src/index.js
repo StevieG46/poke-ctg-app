@@ -13,14 +13,14 @@ root.render(
     <ApiProvider>
 
       <BrowserRouter>
-      <Routes>
-        {/*  Homepage Route */}
-        <Route path="/" element={<App />} />
-        {/* API fetch Route */}
-        <Route path="/card/search/:pokemonName" element={<CardSearchByName />} /> 
+        <Routes>
+          {/*  Homepage Route */}
+          <Route path="/" element={<App />} />
+          {/* API fetch Route */}
+          <Route path="/card/search/:pokemonName" element={<CardSearchByName />} /> 
 
-        
-      </Routes>
+          
+        </Routes>
       
       </BrowserRouter>
       <App />

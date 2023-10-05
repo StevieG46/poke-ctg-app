@@ -37,7 +37,7 @@ export default function CardSearchByName() {
 
 		apiRequest();
 
-	},[]);
+	}, []);
 
 	return (
 		<div>
