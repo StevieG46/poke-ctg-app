@@ -11,20 +11,21 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ApiProvider>
-
+      
       <BrowserRouter>
         <Routes>
-          {/*  Homepage Route */}
-          <Route path="/" element={<App />} />
-          {/* API fetch Route */}
-          <Route path="/card/search/:pokemonName" element={<CardSearchByName />} /> 
+          {/* Homepage route  */}
+          <Route path="/" element={<App />}/>
+          {/* API fetch route */}
+          <Route path="/card/search/:pokemonName" element={<CardSearchByName />} />
 
           
         </Routes>
       
       </BrowserRouter>
-      <App />
+      
     </ApiProvider>
+    
   </React.StrictMode>
 );
 
