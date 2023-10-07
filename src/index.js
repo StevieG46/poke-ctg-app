@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import ApiProvider from './contexts/ApiContext';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CardSearchByName from './pages/CardSearchByName';
+import NavSearchBar from './components/NavSearchBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,9 @@ root.render(
     <ApiProvider>
       
       <BrowserRouter>
+
+        <NavSearchBar />
+     
         <Routes>
           {/* Homepage route  */}
           <Route path="/" element={<App />}/>
