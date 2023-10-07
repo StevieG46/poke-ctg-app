@@ -44,6 +44,7 @@ export default function CardSearchByName() {
 	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [pokemonName]);
 
+
 	return (
 		<div>
 			<h1>Card Search</h1>
